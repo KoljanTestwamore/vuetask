@@ -5,12 +5,7 @@ Vue.use(Vuex);
 
 export const store = new Vuex.Store({
     state: {
-        contacts: localStorage.getItem("contacts") || {
-            "apple": {
-                name: 'John',
-                age: '25'
-            }
-        },
+        contacts: {}
     },
     mutations: {
         createContact(state, name) {
@@ -35,10 +30,4 @@ export const store = new Vuex.Store({
         contacts: s => s.contacts,
         contact: s => id => s.contacts[id] || 0
     },
-    watch: {
-        contacts(c) {
-            console.log('!!');
-            localStorage.setItem("contacts", c);
-        }
-    }
 });
