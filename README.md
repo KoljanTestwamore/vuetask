@@ -22,7 +22,7 @@ Task:
  - В качестве сборщика, если это необходимо, используйте Webpack.
  - Верстка должна быть выполнена без использования UI библиотек (например Vuetify).
 
-Deployed at: https://github.com/KoljanTestwamore/vuetask
+Deployed at: https://koljantestwamore.github.io/vuetask/
 
 ## Project setup
 ```
